@@ -35,7 +35,7 @@ const pokemon = (props) => (
                 <Heading>{props.title.toUpperCase()}</Heading>
                 <Heading>{`ID: ${props.id}`}</Heading>
             </Header>
-            <Image src='https://via.placeholder.com/150' />
+            <Image src={props.img} />
         </Tile>
     </div>
 );
